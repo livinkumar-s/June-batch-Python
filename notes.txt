@@ -39,3 +39,26 @@ Variables
 varName=value
 
 Naming rules
+---------------
+>> variable name can contain letters, numerics, _
+>> variable name cannot start with numeric
+>> No reserved keywords.
+
+Datatypes 
+-----------
+type(obj) --> finds datatype
+Integer --> Whole Number. 0,1,2,-1,-2
+Float --> Decimal Numbers. 0.12, 1.22, 1.00
+String --> Sequence of characters.. '', "".
+I'm Livinkumar
+I said "Hi"
+concatination(+) --> combines 2 or more strings.
+
+Boolean--> True, False
+
+Type Casting 
+--------------
+int(val) --> interger. int("123") --> 123
+str(val) --> string 
+float()
+bool()
