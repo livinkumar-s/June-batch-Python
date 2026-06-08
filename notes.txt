@@ -62,3 +62,75 @@ int(val) --> interger. int("123") --> 123
 str(val) --> string 
 float()
 bool()
+
+0-->0
+1-->1
+2-->10
+3-->11
+4-->100
+5-->101
+.
+.
+99
+
+bit --> smallest unit of memory
+1 byte --> 8 bit
+
+(MSB)_ _ _ _ _ _ _(LSB)
+
+Operators 
+--------------
+>> It is a symbol or keyword that performs operation on values.
+
+Arithmetic 
+-----------
++ --> Addition
+- --> Subtraction 
+* --> Mul 
+/ --> Div
+// --> Floor division 
+% --> Modulus (reminder)
+** --> Expo 
+BODMAS 
+
+Comparison (Boolean)
+-------------
+== (Equal to)
+!= (Not equal)
+< (lesser than)
+> (greater than)
+<= (lesser than or equal)
+>= (greater than or equal)
+
+Logical Operators (Boolean ---> Boolean)
+--------------------
+and --> True --> Both are True. False --> Otherwise
+or --> False --> Both are False. True --> Otherwise
+not --> inverts a boolean.
+
+Assignment 
+-----------
+= assign 
++= add and assign 
+-= sub and assign 
+*= Mul and assign 
+/= Div and assign 
+//= Floor div and assign
+%= Mod and assign 
+**= Expo and assign
+
+Bitwise Operators 
+------------------
+& --> and --> performs and operation between bits.
+| --> or --> performs or operation between bits.
+~ --> not --> ~n=-(n+1)
+^ --> x-or --> performs x-or operation between bits.
+Diff --> 1, same--> 0
+Right Shift --> >> 
+Left Shift --> <<. num<<pos
+
+Identity 
+----------
+
+Membership 
+-----------
