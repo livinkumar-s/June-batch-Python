@@ -22,6 +22,12 @@ Print
 >> it is used to show a data at the output.
 Ex: print(data)
 
+Input 
+--------
+>> It is used to prompt value from user.
+>> Returns a string always.
+Ex: input()
+
 Syntax of Python 
 ------------------
 >> It is case sensitive.(a is not A)
@@ -134,3 +140,42 @@ Identity
 
 Membership 
 -----------
+
+
+Control Flow 
+--------------
+Conditional Clause statement (If, else, elif):
+---------------------------------------------------
+if block
+----------
+Syntax:
+if Condition:
+    block of code
+
+True --> it will execute the block of code. False --> will not execute the block of code.
+
+elif block 
+-----------
+syntax:
+elif condition:
+    block of code 
+True --> it will execute the block of code. False --> will not execute the block of code.
+
+else block 
+----------
+syntax:
+else:
+    block of code
+
+False --> it will execute the block of code. True --> it won't
+
+Nested If
+-----------
+if cond1:
+    if cond2:
+        block of code
+
+Looping Statement
+-------------------
+while --> Condition based loop.
+for --> Sequence based loop.

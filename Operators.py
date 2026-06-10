@@ -61,4 +61,4 @@
 # print(44>>2)
 # print(69<<2)
 
-print(~40)
+# print("a"<"A")
