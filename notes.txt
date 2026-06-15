@@ -135,11 +135,35 @@ Diff --> 1, same--> 0
 Right Shift --> >> 
 Left Shift --> <<. num<<pos
 
+2's Comp = 1's comp + 1
+
+00 -> 0
+10,01 -> 1
+11 -> 10
+111 -> 11
+
 Identity 
 ----------
 
 Membership 
 -----------
+
+Sequences 
+-----------
+length of a string ---> len(seq)
+>> It is an ordered collection of items.
+Ex: String, List, Tuple, Dict, Range...
+
+indexing --> accessing elements from sequence using its index number.
+
+index numbers --> starts from 0.
+Negative indexing --> starts from -1
+a="Hello world" --> varName[ind] --> a[-2]
+
+Slicing 
+-----------
+
+
 
 
 Control Flow 
@@ -179,3 +203,30 @@ Looping Statement
 -------------------
 while --> Condition based loop.
 for --> Sequence based loop.
+
+>> Loops are used to execute a block of code over and over again.
+
+While (when no of iteration is not known)
+------
+syntax:
+while condition:
+    block of code
+
+as long as the conditionj is True this will keep repeating the block of code.
+
+For Loop (when number of iteration is known)(itertate sequence)
+-----------
+syntax:
+for var in sequence:
+    block of code
+
+Range:
+--------
+range(len) --> range(15) --> [0,1,2,3,4,5...14]
+range(start,end) --> range(3,6) --> [3,4,5]
+range(start, end, step) --> range(5,20,2) --> [5,7,9,11...19]
+
+Control Statements of loop 
+------------------------------
+break --> it stops the loop
+continue --> it skips the current iteration.
