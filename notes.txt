@@ -152,7 +152,7 @@ Sequences
 -----------
 length of a string ---> len(seq)
 >> It is an ordered collection of items.
-Ex: String, List, Tuple, Dict, Range...
+Ex: String, List, Tuple, Dict, Range...Set
 
 indexing --> accessing elements from sequence using its index number.
 
@@ -162,9 +162,14 @@ a="Hello world" --> varName[ind] --> a[-2]
 
 Slicing 
 -----------
+>> Slicing is extracting a part of a sequence.
+a="Hello world" --> "world"
 
-
-
+seq[start:] --> a[-4:] --> "orld"
+seq[:end] --> a[:4]
+seq[start:end]
+seq[start:end:step]
+seq[::-1]
 
 Control Flow 
 --------------
@@ -230,3 +235,44 @@ Control Statements of loop
 ------------------------------
 break --> it stops the loop
 continue --> it skips the current iteration.
+
+Data Structures 
+----------------
+>> Organized collection of data.
+
+List 
+--------
+>> [ele1,ele2,ele3......]
+>> Mutable (Updatable)
+>> Indexed (ordered)
+>> it allows duplicates
+
+In built methods 
+----------------
+.append(ele) adds an element at the the end
+.insert(pos,ele)
+.extend(sequence) 
+
+.remove(ele) #first occur
+.pop(ind)
+.pop() #last element
+
+.index(ele)
+.count(ele)
+
+.reverese()
+.sort()
+
+Tuple
+------
+>> (ele1, ele2......)
+>> duplicates are allowed 
+>> indexed 
+>> Immutable.
+
+In built methods 
+--------------------
+.index(ele)
+.count(ele)
+
+
