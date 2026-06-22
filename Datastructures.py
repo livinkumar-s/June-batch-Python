@@ -79,3 +79,49 @@
 
 # a=1,2,3,4,5
 # print(a)
+
+# Set
+
+# s1={34,43,99,8,0,1}
+# s2={1,8,0,2,3}
+
+# for i in s1:
+#     print(i)
+
+# s1.add(10)
+# s1.remove(43)
+
+# print(s1.union(s2))
+# print(s1.intersection(s2))
+# print(s1.difference(s2))
+# print(s2.difference(s1))
+
+# print(s1)
+
+# Dict 
+
+d1={
+    'name':"Ken",
+    "age":43,
+    'isMarried':True,
+}
+
+# d1['age']=45
+# d1["favFooed"]="Curd"
+
+# d1.pop("isMarried")
+# d1.clear()
+
+# print(d1.keys())
+# print(d1.values())
+# print(d1.items())
+
+# print(d1['age'])
+
+# for i in d1:
+#     print(d1[i])
+
+# print(list(d1))
+
+# l1=[3,34,54,56,43,34,5,5,5,321,23]
+# print(list(set(l1)))

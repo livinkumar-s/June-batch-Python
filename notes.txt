@@ -68,6 +68,10 @@ int(val) --> interger. int("123") --> 123
 str(val) --> string 
 float()
 bool()
+list()
+tuple()
+set()
+dict()
 
 0-->0
 1-->1
@@ -275,4 +279,38 @@ In built methods
 .index(ele)
 .count(ele)
 
+Set 
+---
+{ele1,ele2.....}
+>> No Duplicates 
+>> Mutable 
+>> Not Ordered.
 
+In built methods 
+-------------------
+.add()
+.remove()
+
+.union(set)
+.intersection(set)
+.difference(set)
+
+Dictionary
+-----------
+>> key-value pairs.
+{
+    key1:values,
+    .
+    .
+}
+>> keys should be unique
+>> Mutable 
+
+in built methods 
+---------------------
+.pop(key)
+.clear()
+
+.keys()
+.values()
+.items()
