@@ -314,3 +314,46 @@ in built methods
 .keys()
 .values()
 .items()
+
+Functions 
+-------------
+>> It is reusable block of code that performs a specific task.
+
+Inbuilt function --> print, input, int...
+User defined functions
+
+syntax:
+-------
+def fnName():
+    block of code 
+
+calling ---> fnName()
+
+Parameter and Arguments 
+---------------------------
+P --> the variables created in function definition.
+A --> the values you are passing to the parameters while calling a function.
+
+Positional Arguments
+-------------------------
+>> Order matters
+
+Keyword Arguments 
+-------------------
+>> passing Arguments using keyword.
+
+Default Arguments
+---------------------
+>> Assigning default value to parameter.
+
+Variable length Arguments
+--------------------------
+*args 
+>> when you want to take multiple number of arguments.
+
+**arg 
+
+Return 
+-------
+>> To stop a function.
+>> To return a data to the caller.
