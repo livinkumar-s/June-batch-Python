@@ -61,3 +61,23 @@
 # print("Have")
 # num=input("Enter the number: ")
 # print(num)
+
+# a=15
+
+# def dummy():
+#     a=10 #creates new var
+#     print(a)
+
+# dummy()
+# print(a)
+
+# age=10
+
+# def addAge():
+#     global age
+#     age+=1  #increment age by 1
+
+# addAge()
+# addAge()
+# addAge()
+# print(age)

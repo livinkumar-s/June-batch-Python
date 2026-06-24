@@ -55,10 +55,49 @@ Datatypes
 type(obj) --> finds datatype
 Integer --> Whole Number. 0,1,2,-1,-2
 Float --> Decimal Numbers. 0.12, 1.22, 1.00
+
 String --> Sequence of characters.. '', "".
+Immutable.
 I'm Livinkumar
 I said "Hi"
+
+Operations 
+------------
 concatination(+) --> combines 2 or more strings.
+Repetition(*) --> Repeat a string.
+
+In built methods 
+------------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.find()
+.count()
+
+.strip()
+.lstrip()
+.rstrip()
+
+.split(sepChar) --> Str --> list
+.join(sequence)
+
+.isalpha()
+.isdigit()
+.isalnum()
+
+.startswith(substr)
+.endswith(substr)
+
+Formetted Strings 
+-------------------
+f" {var} {var} "
+
+Escape Char 
+--------------
+\n --> new line
+\t --> tab
 
 Boolean--> True, False
 
@@ -357,3 +396,11 @@ Return
 -------
 >> To stop a function.
 >> To return a data to the caller.
+
+Scope 
+-------
+>> It determines where a variable is accisible.
+
+Local Scope --> A variable created inside a function.
+Global Scope --> A variable created outside a function.
+
