@@ -5,11 +5,11 @@ Python:
 Human written code
 (print)
 |
-|(compilation) 
+|(compilation) (Syntax Errors)
 |
 Binary code (0100..)(common)
 |
-|(interpretation)(line by line)
+|(interpretation)(line by line)(Runtime errors)
 |
 Machine code
 
@@ -404,3 +404,48 @@ Scope
 Local Scope --> A variable created inside a function.
 Global Scope --> A variable created outside a function.
 
+File Handling 
+--------------------
+It is the process of creating, reading, writing, updating and deleting a file.
+
+To opean a file --> open(addr, mode)
+
+To read the content --> read(len)
+To read the content line by line --> readline()
+To read the content line by line --> readlines()
+
+To write a content --> .write(content)
+seek() ----> to change pointers position
+tell()
+
+Modes 
+------
+r --> read (file must exist)
+w --> write (over write) (file must exist)
+a --> write  
+x --> create 
+
+To close a file --> .close()
+
+Error 
+-------
+>> It is a problem that stops the code from running preperly.
+
+Syntax Errors 
+----------------
+>> will happen when you make error with python's syntax.
+Ex: SyntaxError, IndentationError...
+
+Runtime Error (Exception)
+--------------
+>> During runtime.
+Ex: NameError, ZeroDivisionError, ValueError, TypeError.
+
+Exception Handling
+----------------------
+try:
+    block of code 
+except Error:
+    handling block
+finally:
+    block of code
