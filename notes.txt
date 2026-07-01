@@ -449,3 +449,37 @@ except Error:
     handling block
 finally:
     block of code
+
+
+OOP --> Object Oriented programming
+------------------------------------
+>> It is a programming pattern where we represent real -world things as objects.
+
+Bottle --> Color, volume..(Attributes) --> open, close(Methods)
+
+Blueprint(Attr,Method) --> Bottle1, Bottle2
+
+class:
+-------
+It is a blueprint for an object.
+
+Syntax
+----------
+class clsName:
+    Attributes
+    Methods 
+
+Object 
+-------
+>> Instance of a class 
+className()
+
+Attributes --> Instance attr, class attr
+Methods --> Instance methods, class methods, static methods.
+
+Self --> It refers to the current object.
+
+Inheritance 
+Poly
+Ecapsulation
+Abstraction
