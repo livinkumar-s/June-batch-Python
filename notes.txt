@@ -187,9 +187,13 @@ Left Shift --> <<. num<<pos
 
 Identity 
 ----------
+is, is not
+>> it checks whether 2 objects refer to the same memory or not.
+
 
 Membership 
 -----------
+in, not in
 
 Sequences 
 -----------

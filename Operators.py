@@ -64,5 +64,57 @@
 # print("a"<"A")
 
 
-print(~17)
+# print(~17)
 
+
+# Identity Operator 
+
+# a=[1,2,3]
+# b=[1,2,3]
+
+# # a+=2
+
+# print(a is b)
+# print(a==b)
+
+# Mutable data --> List, Set, Dict.
+# Immutable data --> Tuple, Int, Float, Str.
+
+# Addr-->1000 ("Hello")
+# Addr-->1000 ("Hello")
+# Addr-->1001 ("Hello123")
+
+
+# a-->1001
+# b-->1000
+
+# a="Hello"
+# b=a
+
+# a+=1 #11
+# a+='123'
+
+# print("a: ",a)
+# print("a: ",id(a))
+
+# print("b: ",b)
+# print("b: ",id(b))
+
+# 1000-->l1
+
+# l1=[1,2,3]
+# l2=l1.copy()
+
+# l1.append(66)
+
+# print(l1)
+# print(id(l1))
+# print(l2)
+# print(id(l2))
+
+# Membership 
+
+a="Hello world"
+
+print("ello" not in a)
+print(55 not in [1,2,3,4,5,6,7])
